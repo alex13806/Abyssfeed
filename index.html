@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AbyssFeed</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>ABYSSFEED</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Video Vault</a></li>
+        <li><a href="#">Writing Sanctuary</a></li>
+        <li class="dropdown">
+          <a href="#">More</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Dog Spot</a></li>
+            <li><a href="#">Merch</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Broadcasting from the Depths</h2>
+      <p>Welcome to AbyssFeed — your portal into raw thought and raw footage.</p>
+    </section>
+
+    <section class="latest">
+      <div class="video-preview">
+        <h3>Latest Vlog</h3>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/your-video-id" title="Latest Vlog Video" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="blog-preview">
+        <h3>Latest Writing</h3>
+        <article>
+          <h4>Title of Post</h4>
+          <p>This is a preview of your most recent blog post...</p>
+          <a href="#">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="dog-spot">
+      <h3>Dog Spot</h3>
+      <p>Shoutouts to the best pups I’ve met lately. Photos, videos, and stories incoming.</p>
+    </section>
+
+    <section id="login-section">
+      <h3>Admin Login</h3>
+      <form id="login-form">
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+      <p id="login-message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AbyssFeed. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
